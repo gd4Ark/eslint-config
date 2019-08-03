@@ -7,5 +7,5 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "gd4ark <gd.4ark@gmail.com>",
-  "license": "ISC"
+  "license": "MIT"
 }
