@@ -1,0 +1,11 @@
+{
+  "name": "fa-eslint-config",
+  "version": "1.0.0",
+  "description": "a eslint config",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "gd4ark <gd.4ark@gmail.com>",
+  "license": "ISC"
+}
