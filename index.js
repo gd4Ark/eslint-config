@@ -2,27 +2,23 @@ module.exports = {
   root: true,
   parserOptions: {
     parser: "babel-eslint",
+    ecmaVersion: 2017,
     sourceType: "module",
+  },
+  globals: {
+    IS_DEV: true,
+    baseURL: true,
+    __cap: true,
   },
   env: {
     browser: true,
     node: true,
+    commonjs: true,
     es6: true,
   },
-  extends: ["plugin:vue/recommended", "eslint:recommended"],
+  extends: ["standard"],
+  plugins: [],
   rules: {
-    // prettier vue html 冲突规则
-    "vue/html-self-closing": 0,
-    "vue/html-closing-bracket-newline": "off",
-    "vue/html-closing-bracket-spacing": "off",
-    "vue/html-end-tags": "off",
-    "vue/html-indent": "off",
-    "vue/html-quotes": "off",
-    "vue/max-attributes-per-line": "off",
-    "vue/mustache-interpolation-spacing": "off",
-    "vue/no-multi-spaces": "off",
-    "vue/no-spaces-around-equal-signs-in-attribute": "off",
-    "vue/singleline-html-element-content-newline": "off",
     "accessor-pairs": 2,
     "arrow-spacing": [
       2,
