@@ -3,16 +3,7 @@
   "version": "1.0.0",
   "description": "a eslint config",
   "main": "index.js",
-  "scripts": {
-    "lint": "eslint --ext .js ./",
-    "lint-fix": "eslint --ext .js ./ --fix"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run lint",
-      "pre-push": "npm run lint"
-    }
-  },
+  "scripts": {},
   "author": "gd4ark <gd.4ark@gmail.com>",
   "license": "MIT",
   "keywords": [
@@ -26,7 +17,6 @@
   "devDependencies": {
     "babel-eslint": "^10.0.2",
     "eslint": "^6.1.0",
-    "eslint-config-alloy": "^2.0.5",
-    "husky": "^2.7.0"
+    "eslint-config-alloy": "^2.0.5"
   }
 }
