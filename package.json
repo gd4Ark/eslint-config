@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-fa",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "a eslint config",
   "main": "index.js",
   "scripts": {},
