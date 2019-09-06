@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['plugin:vue/recommended', 'eslint-config-alloy/vue', './base.js'],
+  extends: ['plugin:vue/recommended', './base.js'],
   globals: {},
   rules: {
     // prettier vue html 冲突规则

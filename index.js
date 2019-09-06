@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['eslint-config-alloy', './base.js'],
+  extends: ['eslint:recommended', 'eslint-config-alloy', './base.js'],
   globals: {},
   rules: {}
 }

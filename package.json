@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-fa",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "a eslint config",
   "main": "index.js",
   "scripts": {},
@@ -15,6 +15,7 @@
     "vue"
   ],
   "dependencies": {
+    "eslint": "^5.16.0",
     "babel-eslint": "^10.0.2",
     "eslint-config-alloy": "^2.0.5"
   }
